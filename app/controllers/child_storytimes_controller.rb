@@ -1,0 +1,2 @@
+class ChildStorytimesController < ApplicationController
+end

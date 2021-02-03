@@ -1,0 +1,2 @@
+class StorytimesController < ApplicationController
+end

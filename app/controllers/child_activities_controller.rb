@@ -1,0 +1,2 @@
+class ChildActivitiesController < ApplicationController
+end
