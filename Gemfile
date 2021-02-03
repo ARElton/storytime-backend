@@ -26,7 +26,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rack-cors'
 
 # generate your JSON in an object-oriented and convention-driven manner.
-gem 'active_model_serializers', '~> 0.10.12'
+# gem 'active_model_serializers', '~> 0.10.12'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,3 +42,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "jwt", "~> 2.2"
+gem "active_model_serializers", "~> 0.10.12"
