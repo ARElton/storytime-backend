@@ -6,3 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+User.destroy_all 
+Child.destroy_all 
+Storytime.destroy_all 
+ChildStorytime.destroy_all
+Activity.destroy_all 
+ChildActivity.destroy_all 
+Category.destroy_all 
+StorytimeActivity.destroy_all 
