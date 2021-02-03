@@ -38,9 +38,9 @@ play = Category.create(category: "Play")
 
 ############# ACTIVITIES #############
 
-Activity.create(title: "You Are My Sunshine", description: "You are my sunshine, my only sunshine. You make me happy when skies are gray. You'll never know dear, how much I love you. Please don't take my sunshine away.", link: "", image: "", category_id: Category.find_by(cagegory: "Sing").id)
-Activity.create(title: "What can you see out your window?", description: "Take a couple minutes and look out the window. Name things that are related to the storytime topic. Try to use repetitive language e.g. 'Look! A red bird. I see a red bird. Do you see a red bird?", link: "", image: "", category_id: Category.find_by(cagegory: "Talk").id)
-Activity.create(title: "These Are My Glasses", description: "These are my glasses, this is my book. I put on my glasses and open up the book. Now I read, read, read, and I look, look, look. I put down my glasses, and close up the book.", link: "https://www.youtube.com/watch?v=9dvl1oa5AVc", image: "", category_id: Category.find_by(cagegory: "Sing").id)
+Activity.create(title: "You Are My Sunshine", description: "You are my sunshine, my only sunshine. You make me happy when skies are gray. You'll never know dear, how much I love you. Please don't take my sunshine away.", link: "", image: "", category_id: Category.find_by(category: "Sing").id)
+Activity.create(title: "What can you see out your window?", description: "Take a couple minutes and look out the window. Name things that are related to the storytime topic. Try to use repetitive language e.g. 'Look! A red bird. I see a red bird. Do you see a red bird?", link: "", image: "", category_id: Category.find_by(category: "Talk").id)
+Activity.create(title: "These Are My Glasses", description: "These are my glasses, this is my book. I put on my glasses and open up the book. Now I read, read, read, and I look, look, look. I put down my glasses, and close up the book.", link: "https://www.youtube.com/watch?v=9dvl1oa5AVc", image: "", category_id: Category.find_by(category: "Sing").id)
 Activity.create(title: "The Tiny Seed", description: "by Eric Carle", link: "", image: "", category_id: Category.find_by(category: "Read").id)
 
 ############# STORYTIMES #############
