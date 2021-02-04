@@ -5,4 +5,9 @@ class StorytimesController < ApplicationController
         render json: storytimes 
     end
 
+    def show
+        storytime = Storytime.find(params[:id])
+        render json: storytime 
+    end
+
 end
