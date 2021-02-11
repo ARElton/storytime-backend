@@ -19,8 +19,8 @@ StorytimeActivity.destroy_all
 
 ############# USERS #############
 
-amelia = User.create(username: "Amelia", name: "Amelia")
-laura = User.create(username: "Laura", name: "Laura")
+amelia = User.create(username: "Amelia", name: "Amelia", password: "123")
+laura = User.create(username: "Laura", name: "Laura", password: "123")
 
 ############# CHILDREN #############
 
