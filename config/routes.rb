@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # resources :storytime_activities
-  # resources :child_activities
+  resources :child_activities
   resources :activities, only: [:index, :show]
   resources :child_storytimes
   # resources :categories

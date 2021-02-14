@@ -39,4 +39,5 @@ class ChildStorytimesController < ApplicationController
     def child_storytime_params
         params.permit(:child_id, :storytime_id, :comment)
     end
+    
 end
