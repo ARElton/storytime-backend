@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # resources :storytime_activities
-  # resources :child_activities
+  resources :child_activities
   resources :activities, only: [:index, :show]
   resources :child_storytimes
   # resources :categories
@@ -9,8 +9,8 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :show]
 
   get '/autologin', to: 'users#autologin'
-  post '/register', to: 'users#register'
-  post '/login', to: 'users#login'
+  post '/register', to: 'auth#register'
+  post '/login', to: 'auth#login'
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
