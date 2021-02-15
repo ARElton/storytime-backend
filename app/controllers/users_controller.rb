@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
+    before_action :authenticate
 
-    def profile
+    def show
         user = AuthozrizeRequest.new(request.headers).user
         if user
             render json: user
@@ -14,10 +15,6 @@ class UsersController < ApplicationController
         render json: users 
     end
 
-    def show
-        user = User.find(params[:id])
-        render json: user 
-    end
 
     # def autologin
     #     render json: @current_user

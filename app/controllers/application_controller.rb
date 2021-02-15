@@ -1,11 +1,8 @@
 class ApplicationController < ActionController::API
-
-    def authorize 
-        @user = AuthorizeRequest.new(request.headers).user
-
-        unless @user
-            render json: { error: "Unauthorized request" }, status: :unauthorized 
-        end
-    end
+    
+    def authenticate
+        @current_user = AuthorizeRequest.new(request.headers).user
+        render json: { error: 'Not Authorized' }, status: :unauthorized unless @current_user
+      end
 
 end
