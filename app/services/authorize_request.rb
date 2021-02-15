@@ -1,4 +1,5 @@
 class AuthorizeRequest
+  # attr_reader :headers
 
     def initialize(headers = {})
       @headers = headers
@@ -12,14 +13,14 @@ class AuthorizeRequest
   
     attr_reader :headers
   
+    def auth_token
+      headers['Authorization'].split.last if headers['Authorization'].present?
+    end
+
     def decoded_token
       JWT.decode(auth_token, Rails.application.secrets.secret_key_base, true, { algorthim: 'HS256' })[0]
     rescue
       nil
-    end
-  
-    def auth_token
-      headers['Authorization'].split.last if headers['Authorization'].present?
     end
     
   end
