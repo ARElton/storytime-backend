@@ -54,12 +54,53 @@ Activity.create(title: "Snow! Snow! Snow!", description: "by Lee Harper", link: 
 Activity.create(title: "Winter Hokey Pokey", description: "You put your mittens in, you take your mittens out. You put your boots in, you take your boots out. You put your hat in, you put your hat out. You put your coat in, you put your coat out", link: "https://www.youtube.com/embed/uBYNtMyN_6E", image: "", category_id: Category.find_by(category: "Sing").id)
 Activity.create(title: "Five Little Snowmen", description: "Five little snowmen standing in a row, standing straight and tall in the deep, cold snow. Out came the sun, shining bright and hot all day, and one little snowman melted away. Continue until have no snowmen left...", link: "https://www.youtube.com/embed/MRQvu18LCgo", image: "", category_id: Category.find_by(category: "Talk").id)
 
+Activity.create(title: "LMNO Peas", description: "by Keith Baker", link: "https://www.youtube.com/embed/6b9iW6nD77Q", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "Chicka Chicka Boom Boom", description: "by Bill Martin", link: "https://www.youtube.com/embed/VdrTXRD090U", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "Alphabet Beat", description: "First clap your hands. Then stomp your feet. Everybody do the alphabet beat. Apple, Apple, Apple – a – a – a, Apple, Apple, Apple – a – a – a, Wave your arms high. Swing your arms low. The alphabet beat is the way to go. Blue, Blue, Blue – b – b – b Blue, Blue, Blue – b – b – b Move to the left. Move to the right. The alphabet beat is way out of sight. Car, Car, Car – c – c – c Car, Car, Car – c – c – c Now give a high five to a nearby friend. The alphabet beat has come to the end!", link: "https://www.youtube.com/embed/783EsrHchXA", image: "", category_id: Category.find_by(category: "Sing").id)
+Activity.create(title: "Alligators all Around an Alphabet", description: "by Maurice Sendak", link: "https://www.youtube.com/embed/iAMxParjeUU", image: "", category_id: Category.find_by(category: "Read").id)
+
+Activity.create(title: "Ten Little Fingers and Ten Little Toes", description: "by Mem Fox", link: "https://www.youtube.com/embed/23BD43s7iFA", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "The Baby Goes Beep", description: "by Rebecca O'Connell", link: "https://www.youtube.com/embed/63YFwZt1myw", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "Pat-a-Cake", description: "Pat-a-cake, pat-a-cake, baker’s man. Bake me a cake as fast as you can. Roll it, and pat it, and mark it with a B. And put it in the oven for baby and me", link: "https://www.youtube.com/embed/jdg50KzCR9w", image: "", category_id: Category.find_by(category: "Sing").id)
+
+Activity.create(title: "Llama Llama Red Pajama", description: "by Anna Dewdney", link: "https://www.youtube.com/embed/DUWU58pVcwM", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "Cornelius P. Mud, Are You Ready for Bed?", description: "by Barney Saltzburg", link: "https://www.youtube.com/embed/8QjD5KYHe2c", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "Ten in the Bed", description: "There were ten in the bed (Hold up ten fingers) and the little one said, Roll over, roll over! (Make rolling motion) So they are rolled over and one fell out. (Hold up one finger & surprised face) // Count down until 1 // There was one in the bed (Hold up one finger) and the little one said, I’ve got it all to myself. (Spread out arms)", link: "https://www.youtube.com/embed/TdDypyS_5zE", image: "", category_id: Category.find_by(category: "Sing").id)
+
+Activity.create(title: "Orange Pear Apple Bear", description: "by Emily Gravett", link: "https://www.youtube.com/embed/L0tYX9tPq_0", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "Teddy Bear, Teddy Bear", description: "Teddy Bear, Teddy Bear, turn around, Teddy Bear, Teddy Bear, touch the ground. Teddy Bear, Teddy Bear, reach up high, Teddy Bear, Teddy Bear, touch the sky. Teddy Bear, Teddy Bear, touch your knees, Teddy Bear, Teddy Bear, sit down please", link: "https://www.youtube.com/embed/Tu_n94Wp3rg", image: "", category_id: Category.find_by(category: "Sing").id)
+Activity.create(title: "Old Bear", description: "by Kevin Henkes", link: "https://www.youtube.com/embed/kjhzDxQEffw", image: "", category_id: Category.find_by(category: "Read").id)
+
+Activity.create(title: "A Birthday for Cow", description: "by Jan Thomas", link: "https://www.youtube.com/embed/ZYvP987Ndrc", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "The Birthday Box", description: "by Leslie Patricelli", link: "https://www.youtube.com/embed/bwG0yV0xDMQ", image: "", category_id: Category.find_by(category: "Read").id)
+Activity.create(title: "Five Candles", description: "Five candles on a birthday cake, Five, and not one more. You may blow one candle out, And that leaves four! (There for all to see / three; Standing straight and true / two; Helping us have fun / one; We know its task is done / none)", link: "https://www.youtube.com/embed/xGhfRzkud5Q", image: "", category_id: Category.find_by(category: "Sing").id)
+
+
 
 ############# STORYTIMES #############
 
+Storytime.create(title: "Alphabet Storytime", age: 3, genre: "Alphabet", time: 15)
+Storytime.create(title: "Baby Storytime", age: 1, genre: "About Me", time: 10)
+Storytime.create(title: "Bedtime Storytime", age: 2, genre: "Times of Day", time: 15)
+Storytime.create(title: "Bear Storytime", age: 4, genre: "Animals", time: 25)
+Storytime.create(title: "Birthday Storytime", age: 5, genre: "Important Days", time: 20)
+Storytime.create(title: "Bug Storytime", age: 3, genre: "Animals", time: 15)
+Storytime.create(title: "Counting Storytime", age: 4, genre: "Counting", time: 20)
+Storytime.create(title: "Dancing Storytime", age: 2, genre: "Movement", time: 15)
+Storytime.create(title: "Dinosaur Storytime", age: 3, genre: "Animals", time: 15)
+Storytime.create(title: "Emotions Storytime", age: 3, genre: "About Me", time: 15)
+Storytime.create(title: "Friends Storytime", age: 5, genre: "About Me", time: 20)
+Storytime.create(title: "Garden Storytime", age: 2, genre: "Nature", time: 15)
+Storytime.create(title: "Monster Storytime", age: 4, genre: "Animals", time: 20)
 Storytime.create(title: "Nature Storytime", age: 3, genre: "Nature", time: 10)
 Storytime.create(title: "Ocean Storytime", age: 5, genre: "Nature", time: 20)
+Storytime.create(title: "School Storytime", age: 4, genre: "Important Days", time: 20)
+Storytime.create(title: "Seasons Storytime", age: 2, genre: "Nature", time: 15)
 Storytime.create(title: "Snow Storytime", age: 4, genre: "Weather", time: 20)
+Storytime.create(title: "Transportation Storytime", age: 3, genre: "Transportation", time: 15)
+Storytime.create(title: "Trees Storytime", age: 2, genre: "Nature", time: 15)
+
+
 
 ############# STORYTIME ACTIVITIES FOR NATURE STORYTIME #############
 
@@ -80,4 +121,27 @@ StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Snow Storytime"
 StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Snow Storytime").id, activity_id: Activity.find_by(title: "One Mitten").id)
 StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Snow Storytime").id, activity_id: Activity.find_by(title: "Five Little Snowmen").id)
 StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Snow Storytime").id, activity_id: Activity.find_by(title: "Snow! Snow! Snow!").id)
+
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Alphabet Storytime").id, activity_id: Activity.find_by(title: "LMNO Peas").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Alphabet Storytime").id, activity_id: Activity.find_by(title: "Chicka Chicka Boom Boom").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Alphabet Storytime").id, activity_id: Activity.find_by(title: "Alphabet Beat").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Alphabet Storytime").id, activity_id: Activity.find_by(title: "Alligators all Around an Alphabet").id)
+
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Baby Storytime").id, activity_id: Activity.find_by(title: "Ten Little Fingers and Ten Little Toes").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Baby Storytime").id, activity_id: Activity.find_by(title: "The Baby Goes Beep").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Baby Storytime").id, activity_id: Activity.find_by(title: "Pat-a-Cake").id)
+
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Bedtime Storytime").id, activity_id: Activity.find_by(title: "Llama Llama Red Pajama").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Bedtime Storytime").id, activity_id: Activity.find_by(title: "Cornelius P. Mud, Are You Ready for Bed?").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Bedtime Storytime").id, activity_id: Activity.find_by(title: "Ten in the Bed").id)
+
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Bear Storytime").id, activity_id: Activity.find_by(title: "Orange Pear Apple Bear").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Bear Storytime").id, activity_id: Activity.find_by(title: "Teddy Bear, Teddy Bear").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Bear Storytime").id, activity_id: Activity.find_by(title: "Old Bear").id)
+
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Birthday Storytime").id, activity_id: Activity.find_by(title: "A Birthday for Cow").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Birthday Storytime").id, activity_id: Activity.find_by(title: "The Birthday Box").id)
+StorytimeActivity.create(storytime_id: Storytime.find_by(title: "Birthday Storytime").id, activity_id: Activity.find_by(title: "Five Candles").id)
+
+
 
