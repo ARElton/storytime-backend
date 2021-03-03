@@ -1,24 +1,21 @@
-# README
+# Storytime
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Storytime is an educational platform created to help users find and save storytime activities to do with their children.
 
-Things you may want to cover:
+This application is desigend to give adults the structure and support to run their own storytime at home with their child, and materials they have around the house.
+It is NOT designed for the child to use, but rather to give a lesson plan/structure of activities to adults. 
 
-* Ruby version
+### What is a storytime?
 
-* System dependencies
+	📚 A storytime is an event, typically hosted at a library or school, put on for children and adults. It is structured to show caregivers ways they can help their child interact with books and develop early literacy skills.
 
-* Configuration
+	📚 Storytimes not only help develop early literacy skills, but also develop both fine and gross motor skills (movement), imagination and creativity, and independent thinking in children. 
 
-* Database creation
 
-* Database initialization
+## Technologies
+Storytime is created with:
+- Ruby: 2.6.1
+- Rails: 6.0.3
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
